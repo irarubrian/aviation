@@ -22,7 +22,8 @@ const About = () => {
     <main css={css({
       maxWidth: '1440px',
       margin: '0 auto',
-      overflow: 'hidden',
+      overflowX: 'hidden', // Prevent horizontal scroll
+      width: '100%', // Ensure main never exceeds viewport
       fontFamily: "'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
       color: '#333',
       lineHeight: 1.6

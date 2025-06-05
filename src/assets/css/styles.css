@@ -344,4 +344,26 @@ p, li {
   color: var(--secondary-color);
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem 2%;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+  .nav-links li {
+    width: 100%;
+  }
+  .nav-links a {
+    padding: 1rem 0;
+    width: 100%;
+  }
+}
+
 /* Footer Styles */
